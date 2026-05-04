@@ -1,5 +1,5 @@
 site_name: Cyber And Chill Wiki
-site_url: https://Egan83.github.io/CyberAndChill/
+site_url: https://cyber-and-chill.github.io/wiki/
 site_description: Wiki collaboratif d'informatique et de cybersécurité
 
 theme:
@@ -8,18 +8,18 @@ theme:
   logo : assets/logo.png
   favicon: assets/logo.png
   palette:
-    - scheme: default
-      primary: indigo
-      accent: cyan
-      toggle:
-        icon: material/weather-night
-        name: Mode sombre
     - scheme: slate
       primary: indigo
       accent: cyan
       toggle:
         icon: material/weather-sunny
         name: Mode clair
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
   features:
     - navigation.tabs          # Onglets en haut
     - navigation.sections
