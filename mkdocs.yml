@@ -1,0 +1,64 @@
+site_name: Cyber And Chill Wiki
+site_url: https://Egan83.github.io/CyberAndChill/
+site_description: Wiki collaboratif d'informatique et de cybersécurité
+
+theme:
+  name: material
+  language: fr
+  logo : assets/logo.png
+  favicon: assets/logo.png
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+  features:
+    - navigation.tabs          # Onglets en haut
+    - navigation.sections
+    - navigation.top           # Bouton retour
+    - search.highlight
+    - search.suggest
+    - content.code.copy        # Bouton copier le code
+
+nav:
+  - Accueil: index.md
+
+  - Informatique:
+    - Systèmes:
+      - Linux: informatique/systemes/coming_soon.md
+      - Windows: informatique/systemes/coming_soon.md
+    - Réseaux:
+      - Bases: informatique/reseaux/coming_soon.md
+      - Protocoles: informatique/reseaux/coming_soon.md
+    - Développement:
+      - Git: informatique/dev/coming_soon.md
+      - Python: informatique/dev/coming_soon.md
+
+  - Cybersécurité:
+    - Fondamentaux: cybersecurite/coming_soon.md
+    - OSINT: cybersecurite/coming_soon.md
+
+  - Outils:
+    - Page en construction: outils/coming_soon.md
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - admonition
+  - pymdownx.details
+  - attr_list
+  - tables
+
+plugins:
+  - search:
+      lang: fr
