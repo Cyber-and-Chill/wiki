@@ -1,12 +1,15 @@
-site_name: Cyber And Chill Wiki
+site_name: Cyber & Chill Wiki
 site_url: https://Cyber-and-Chill.github.io/wiki/
 site_description: Wiki collaboratif d'informatique et de cybersécurité
+repo_url: https://github.com/Cyber-and-Chill/wiki
+repo_name: Cyber & Chill Wiki
 
 theme:
   name: material
   language: fr
   logo : assets/logo.png
   favicon: assets/logo.png
+  repo: fontawesome/brands/github
   palette:
     - scheme: slate
       primary: indigo
