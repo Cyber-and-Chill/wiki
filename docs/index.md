@@ -18,6 +18,7 @@ Découvrez les principes fondamentaux de la sécurité informatique et les techn
 
 - **Fondamentaux** : Les bases indispensables de la cybersécurité
 - **OSINT** : Techniques de recherche d'informations sur le web
+- **Web cracking** : Les bases de l'exploitation web
 
 ### 💻 [Informatique](../informatique/)
 Explorez les domaines clés de l'informatique moderne.
