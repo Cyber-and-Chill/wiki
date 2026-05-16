@@ -35,22 +35,24 @@ nav:
   - Accueil: index.md
 
   - Informatique:
-    - Systèmes:
-      - Linux: informatique/systemes/coming_soon.md
-      - Windows: informatique/systemes/coming_soon.md
-    - Réseaux:
-      - Bases: informatique/reseaux/coming_soon.md
-      - Protocoles: informatique/reseaux/coming_soon.md
-    - Développement:
-      - Git: informatique/dev/coming_soon.md
-      - Python: informatique/dev/coming_soon.md
+      - Systèmes:
+          - Linux: informatique/systemes/linux/coming_soon.md
+          - Windows: informatique/systemes/windows/coming_soon.md
+
+      - Réseaux:
+          - Bases: informatique/reseaux/bases/coming_soon.md
+          - Protocoles: informatique/reseaux/protocoles/coming_soon.md
+
+      - Développement:
+          - Git: informatique/developpement/git/coming_soon.md
+          - Python: informatique/developpement/python/coming_soon.md
 
   - Cybersécurité:
-    - Fondamentaux: cybersecurite/coming_soon.md
-    - OSINT: cybersecurite/coming_soon.md
+      - Fondamentaux: cybersecurite/fondamentaux/coming_soon.md
+      - OSINT: cybersecurite/osint/coming_soon.md
 
   - Outils:
-    - Page en construction: outils/coming_soon.md
+      - Page en construction: outils/coming_soon.md
 
 markdown_extensions:
   - pymdownx.highlight:
